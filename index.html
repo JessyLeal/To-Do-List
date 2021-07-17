@@ -3,25 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <title>To Do</title>
 </head>
 <body>
-    <div class="header" >
-        <h1>TO DO</h1>
-        <input type="text" id="myInput" placeholder="Create new to do...">
-        <span onclick="ElementoNovo()" class="AddTask">Adicionar</span>
+    <div class='header'>
+        <h1>To Do</h1>
+        <input type="text" placeholder="Insira aqui seus afazeres" id="NovaTask">
+        <button id="AddTask" onclick="ElementoNovo()" >Adicionar tarefa</button>
     </div>
-
-    <ul class='Lista'>
-        <li>Comprar verduras na feira</li>
-        <li>Terminar o projeto de Elementos de Sistemas</li>
-        <li>Botar o feijão de molho </li>
-        <li>Terminar vídeo-aulas de Python</li>
-        <li>Assistir o curso de Sebrae</li>
-    </ul>
-<script src="script.js"></script>
-    
+    <ul id="Lista"> </ul>
+    <script src="script.js"></script>
 </body>
 </html>
