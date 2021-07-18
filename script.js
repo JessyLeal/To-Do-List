@@ -5,6 +5,12 @@ function ElementoNovo() {
     if (document.getElementById("NovaTask").value !== "") {
         var li = document.createElement("li");
         li.innerHTML = document.getElementById("NovaTask").value;
+        // elementos da lista arrastaveis
+        var mover = document.createAttribute('draggable');
+        li.className = 'draggable';
+        mover.value = 'true';
+        li.setAttributeNode(mover);
+
         // botão de remover
         var remover = document.createElement("a");
         remover.innerHTML = "\u00D7";
