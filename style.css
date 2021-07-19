@@ -1,19 +1,28 @@
 * {
     box-sizing:border-box;
 }
+body{
+    background: hsl(240, 20%, 11%);
+}
 
+a {
+    position: fixed;
+    right: 5%;
+}
 ul{
     margin:0;
     padding-top:10px;
     padding-left:0px
 }
-
 ul li{
+
     cursor:pointer;
     position:left;
+    text-indent: 20px;
+
     padding:10px;
-    background: rgb(14, 247, 223);
-    font-size: 13px;
+    background: hsl(234, 23%, 19%);
+    font-size: 14px;
     transition:0.2s;
 
     -webkit-user-select: none;
@@ -22,57 +31,67 @@ ul li{
     user-select:none;
 }
 
+#Lista{
+    color: white;
+}
 ul li:nth-child(odd){
-    background: rgb(183, 125, 238);
+    background: rgb(77, 4, 133);
 }
 
 ul li:hover{
-    background: rgb(216, 226, 170);
+    background: rgb(129, 10, 240);
+    color: black;
 }
-
 ul li.checked{
-    background:rgb(255, 255, 254);
+    background:rgb(160, 56, 245);
     color: rgb(78, 77, 76);
     text-decoration: line-through;
 }
 
-/* ul li.checked::before {
+ul li.checked::before {
     content: '';
-    position: absolute;
+    position: fixed;
     border-color: #fff;
     border-style: solid;
     border-width: 0 2px 2px 0;
-    top: 10px;
-    left: 16px;
+    /* /* top: 10px; */
+    left: 16px; 
     transform: rotate(45deg);
     height: 15px;
     width: 7px;
-  } */
+  }
 
-.AddTask{
+#AddTask{
     cursor: pointer;
-    padding: 10px;
+    padding: 2px;
     background: rgb(230, 208, 200);
-    border-radius: 8px;
+    border-radius: 5px;
     float: inline-end;
     font-size: 13px;
     transition: 0.3s;
-    /* text-align: center; */
+    width: auto;
+    height: auto;
+    display: none;
+    text-align: bottom;
+    text-size-adjust: auto;
 }
 
-.AddTask:hover{
+#AddTask:hover{
     background: lemonchiffon;
 }
 
 .header{
-    background-color: rgb(213, 192, 240);
+    background-color: rgb(77, 4, 133);
     padding: 30px 50px;
+    padding-bottom: 40px;
+    color: white;
+
 
 }
 input {
-    /* margin: 0; */
+    background: hsl(hsl(234, 23%, 19%));
     border: none;
-    /* border-radius: 0; */
+    border-radius: 2px;
     width: 75%;
     padding: 5px;
     float: left;
