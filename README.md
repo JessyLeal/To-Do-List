@@ -12,15 +12,11 @@
 ## O desafio:
 Os usuários devem ser capazes de:
 
-- Veja o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo ✔
-- Ver estados de foco para todos os elementos interativos na página (?)
-- Adicionar novos elementos à lista ✔
-- Marcar todos como completos ✔
+- Veja o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo 
+- Adicionar novos elementos à lista 
+- Marcar todos como completos 
 - Excluir tarefas da lista
-- Filtrar por todos / ativos / completos todos X
-- Limpar todas as tarefas concluídas X
-- Alternar entre os modos claro e escuro X
-- ** Bônus **: arraste e solte para reordenar os itens da lista X
+- Limpar todas as tarefas concluídas 
 
 ### imagens da solução
 ![](desing/desk.png)
