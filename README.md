@@ -5,7 +5,6 @@
 - [Visão Geral](#Visão-Geral)
   - [Desafio](#O-desafio)
   - [Imagens da solução](#imagens-da-solução)
-  - [Links](#links)
   - [Tecnologias](#Construido-com)
   - [Autores](#autores)
 
