@@ -40,7 +40,7 @@ ul li:nth-child(odd){
 }
 
 ul li:hover{
-    background: rgb(115, 252, 73);
+    background: rgb(129, 10, 246);
     color: black;
 }
 ul li.checked{
